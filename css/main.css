@@ -32,4 +32,28 @@ body {
   left: 75px;
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+
+}
+
+.polaroid:first-child {
+  left: 30%;
+  top: 20%;
+  transform: rotate(-10deg);
+}
+
+.polaroid:nth-child(2) {
+  z-index: 4;
+  left: 40%;
+  top: 25%;
+  transform: rotate(5deg);
+}
+
+.polaroid:last-child {
+  left: 50%;
+  top: 20%;
+  transform: rotate(30deg);
+}
+
+.polaroid:hover {
+  z-index: 100;
 }
