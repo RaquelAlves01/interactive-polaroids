@@ -15,7 +15,7 @@ body {
   margin: 0;
   padding: 10px;
   width: 250px;
-  transition: linear 3s all;
+  transition: linear 200ms all;
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
@@ -56,4 +56,5 @@ body {
 
 .polaroid:hover {
   z-index: 100;
+  transform: rotate(0deg);
 }
